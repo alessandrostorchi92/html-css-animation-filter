@@ -62,3 +62,13 @@
     filter: saturate(0.5) brightness(0.5);
     border-radius: 40px;
 }
+
+.ex-9-square {
+    transition: 1.5s;
+}
+
+.ex-9-square:hover {
+    filter: contrast(0.6) grayscale(0.4);
+    border-radius: 40px;
+    transform: scale(2);
+}
